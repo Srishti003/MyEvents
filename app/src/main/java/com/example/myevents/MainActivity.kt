@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
             finish()
-        }, 2000) // 2 seconds
+        }, 4000) // 4 seconds
     }
 
 

@@ -45,7 +45,8 @@
         app:layout_constraintTop_toBottomOf="@id/textView2"
         app:layout_constraintBottom_toTopOf="@id/progressBar"
         tools:layout_editor_absoluteY="349dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:src="@drawable/muj_logo"/>
 
     <ProgressBar
         android:id="@+id/progressBar"
